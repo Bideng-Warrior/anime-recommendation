@@ -1,0 +1,11 @@
+buat file csv baru isinya data dari :
+
+anime_id -> animelist.csv
+user_id -> animelist.csv
+rating -> animelist.csv
+anime_name -> anime.csv
+anime_genre -> anime.csv
+
+file html sama rating_complete.csv & watching_status.csv dah sya hapus
+
+link dataset : https://www.kaggle.com/datasets/hernan4444/animeplanet-recommendation-database-2020?select=animelist.csv
