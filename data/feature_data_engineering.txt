@@ -10,4 +10,4 @@ file html sama rating_complete.csv & watching_status.csv dah sya hapus
 
 link dataset : https://www.kaggle.com/datasets/hernan4444/animeplanet-recommendation-database-2020?select=animelist.csv
 
-hanya mencoba pull request
+end-to-end machine learning project
