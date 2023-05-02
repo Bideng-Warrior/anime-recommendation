@@ -1,5 +1,13 @@
 ## ANIME RECOMMENDATION WITH COLLABORATIVE FILTERING
 
+This dataset contains information about 16.621 anime, 175.731 recommendations and the preference from 74.129 different users of animes scrapped from anime-planet. In particular, this dataset contain:
+
+- Information about the anime like Tags, synopsis, average score, etc.
+- List of animes recommended given another anime and the count of user that are agreed with the recommendation.
+- HTML with anime information to do data scrapping. These files contain information such as reviews, synopsis, information about the staff, anime statistics, genre, etc.
+- the anime list per user. Include dropped, watched, want to watch, currently watching, stalled and Won't watch.
+- ratings given by users to the animes that they has watched completely.
+
 <div id="badges">
   <a href="[https://www.kaggle.com/maoel31](https://www.kaggle.com/datasets/hernan4444/animeplanet-recommendation-database-2020)">
     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle Badge"/>
@@ -130,7 +138,8 @@ This step can be seen in [model & evaluation.ipynb](https://github.com/Bideng-Wa
 This step can be seen in [model & evaluation.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/model%20%26%20evaluation.ipynb)
 
 Reference :
-[What does RMSE really mean?](https://towardsdatascience.com/what-does-rmse-really-mean-806b65f2e48e)
+- [What does RMSE really mean?](https://towardsdatascience.com/what-does-rmse-really-mean-806b65f2e48e)
+- [Anime-Planet Recommendation Database 2020](https://www.kaggle.com/datasets/hernan4444/animeplanet-recommendation-database-2020)
 
 Team : [Maulana Muhammad](https://github.com/Maoelan) & [Rifki Alfaro](https://github.com/Zweihandler)
        
