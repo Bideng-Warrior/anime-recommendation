@@ -14,7 +14,7 @@
 - Data cleaning : remove null value, duplicate, and ambiguous data
 - Data reduction : remove ```unnamed : 0``` feature
 
-This step can be seen in data-merging.ipynb and data-cleaning.ipynb
+This step can be seen in [data-merging.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/data-merging.ipynb) and [data-cleaning.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/data-merging.ipynb)
 
 ### EDA
 - Show stastic data from dataset : count, mean, std, min, 25%, 50%, 75%, and max
@@ -23,7 +23,7 @@ This step can be seen in data-merging.ipynb and data-cleaning.ipynb
 - Most common tags with wordcloud
 - Data outlier
 
-This step can be seen in exploratory-data-analysis.ipynb
+This step can be seen in [exploratory-data-analysis.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/exploratory-data-analysis.ipynb)
 
 ### Data Preparation
 - encoding ```user_id``` to integer
@@ -32,7 +32,7 @@ This step can be seen in exploratory-data-analysis.ipynb
 - ```x``` data : ```user```, ```anime```, ```y``` data : ```rating```
 - split data into 80L20 ratio : ```x_train```, ```y_train```, ```x_val```, ```y_val```
 
-This step can be seen in model & evaluation.ipynb
+This step can be seen in [model & evaluation.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/model%20%26%20evaluation.ipynb)
 
 ### Modelling
 - Model using custom neural network ```RecommenderNet``` from tf.keras.Model, layers used in model like ```Embedding, tensordot and sigmoid```
@@ -59,7 +59,7 @@ This step can be seen in model & evaluation.ipynb
 
 ![image](https://user-images.githubusercontent.com/58927608/235581360-2ad7f2bb-1a1b-4746-ba99-fd0f171bf899.png)
 
-This step can be seen in model & evaluation.ipynb
+This step can be seen in [model & evaluation.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/model%20%26%20evaluation.ipynb)
 
 ### Evaluation
 
@@ -81,10 +81,13 @@ Root Mean Squared Error :
    However, the fact that the validation set performance is fairly close to the training set performance throughout training suggests that the model is not overfitting, which is a positive sign.
    
    _we could have improved it further, but we discovered errors in the data, so we didn't do it KEKW_
+ 
+This step can be seen in [model & evaluation.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/model%20%26%20evaluation.ipynb)
 
 ### Testing Recommendation
 - This is anime recommendation for user_id 48841
-  user_id 48841 :
+  
+  data user_id 48841 :
   
   |        | anime_id | user_id | Name                                              | Tags                                              | watching_status | watched_episodes | rating | user  | anime |
   |-------:|---------:|--------:|---------------------------------------------------|---------------------------------------------------|-----------------|------------------|--------|-------|-------|
@@ -123,9 +126,14 @@ Root Mean Squared Error :
   | Legend of the Condor Hero III : Martial Arts                                                                                                                                                                                                                  |
   | Dou Po Cangqiong 4th Season : Action, Chinese Animation, Xianxia, Based on a Web Novel, CG Animation                                                                                                                                                          |
   | Yamishibai: Japanese Ghost Stories 8th Season : Horror, Episodic, Short Episodes, Supernatural, Urban Legend, Original Work                                                                                                                                   |
+  
+This step can be seen in [model & evaluation.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/model%20%26%20evaluation.ipynb)
 
 Reference :
 [What does RMSE really mean?](https://towardsdatascience.com/what-does-rmse-really-mean-806b65f2e48e)
+
+Team : [Maulana Muhammad](https://github.com/Maoelan) & [Rifki Alfaro](https://github.com/Zweihandler)
+       
 
 
 
