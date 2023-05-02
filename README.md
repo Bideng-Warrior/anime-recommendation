@@ -9,7 +9,7 @@ This dataset contains information about 16.621 anime, 175.731 recommendations an
 - ratings given by users to the animes that they has watched completely.
 
 <div id="badges">
-  <a href="[https://www.kaggle.com/maoel31](https://www.kaggle.com/datasets/hernan4444/animeplanet-recommendation-database-2020)">
+  <a href="https://www.kaggle.com/maoel31](https://www.kaggle.com/datasets/hernan4444/animeplanet-recommendation-database-2020">
     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle Badge"/>
   </a>
 </div>
