@@ -1,5 +1,13 @@
 ## ANIME RECOMMENDATION WITH COLLABORATIVE FILTERING
 
+This dataset contains information about 16.621 anime, 175.731 recommendations and the preference from 74.129 different users of animes scrapped from anime-planet. In particular, this dataset contain:
+
+- Information about the anime like Tags, synopsis, average score, etc.
+- List of animes recommended given another anime and the count of user that are agreed with the recommendation.
+- HTML with anime information to do data scrapping. These files contain information such as reviews, synopsis, information about the staff, anime statistics, genre, etc.
+- the anime list per user. Include dropped, watched, want to watch, currently watching, stalled and Won't watch.
+- ratings given by users to the animes that they has watched completely.
+
 <div id="badges">
   <a href="[https://www.kaggle.com/maoel31](https://www.kaggle.com/datasets/hernan4444/animeplanet-recommendation-database-2020)">
     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle Badge"/>
@@ -14,7 +22,7 @@
 - Data cleaning : remove null value, duplicate, and ambiguous data
 - Data reduction : remove ```unnamed : 0``` feature
 
-This step can be seen in data-merging.ipynb and data-cleaning.ipynb
+This step can be seen in [data-merging.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/data-merging.ipynb) and [data-cleaning.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/data-merging.ipynb)
 
 ### EDA
 - Show stastic data from dataset : count, mean, std, min, 25%, 50%, 75%, and max
@@ -23,7 +31,7 @@ This step can be seen in data-merging.ipynb and data-cleaning.ipynb
 - Most common tags with wordcloud
 - Data outlier
 
-This step can be seen in exploratory-data-analysis.ipynb
+This step can be seen in [exploratory-data-analysis.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/exploratory-data-analysis.ipynb)
 
 ### Data Preparation
 - encoding ```user_id``` to integer
@@ -32,7 +40,7 @@ This step can be seen in exploratory-data-analysis.ipynb
 - ```x``` data : ```user```, ```anime```, ```y``` data : ```rating```
 - split data into 80L20 ratio : ```x_train```, ```y_train```, ```x_val```, ```y_val```
 
-This step can be seen in model & evaluation.ipynb
+This step can be seen in [model & evaluation.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/model%20%26%20evaluation.ipynb)
 
 ### Modelling
 - Model using custom neural network ```RecommenderNet``` from tf.keras.Model, layers used in model like ```Embedding, tensordot and sigmoid```
@@ -59,7 +67,7 @@ This step can be seen in model & evaluation.ipynb
 
 ![image](https://user-images.githubusercontent.com/58927608/235581360-2ad7f2bb-1a1b-4746-ba99-fd0f171bf899.png)
 
-This step can be seen in model & evaluation.ipynb
+This step can be seen in [model & evaluation.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/model%20%26%20evaluation.ipynb)
 
 ### Evaluation
 
@@ -81,10 +89,13 @@ Root Mean Squared Error :
    However, the fact that the validation set performance is fairly close to the training set performance throughout training suggests that the model is not overfitting, which is a positive sign.
    
    _we could have improved it further, but we discovered errors in the data, so we didn't do it KEKW_
+ 
+This step can be seen in [model & evaluation.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/model%20%26%20evaluation.ipynb)
 
 ### Testing Recommendation
 - This is anime recommendation for user_id 48841
-  user_id 48841 :
+  
+  data user_id 48841 :
   
   |        | anime_id | user_id | Name                                              | Tags                                              | watching_status | watched_episodes | rating | user  | anime |
   |-------:|---------:|--------:|---------------------------------------------------|---------------------------------------------------|-----------------|------------------|--------|-------|-------|
@@ -123,9 +134,15 @@ Root Mean Squared Error :
   | Legend of the Condor Hero III : Martial Arts                                                                                                                                                                                                                  |
   | Dou Po Cangqiong 4th Season : Action, Chinese Animation, Xianxia, Based on a Web Novel, CG Animation                                                                                                                                                          |
   | Yamishibai: Japanese Ghost Stories 8th Season : Horror, Episodic, Short Episodes, Supernatural, Urban Legend, Original Work                                                                                                                                   |
+  
+This step can be seen in [model & evaluation.ipynb](https://github.com/Bideng-Warrior/anime-recommendation/blob/main/model%20%26%20evaluation.ipynb)
 
 Reference :
-[What does RMSE really mean?](https://towardsdatascience.com/what-does-rmse-really-mean-806b65f2e48e)
+- [What does RMSE really mean?](https://towardsdatascience.com/what-does-rmse-really-mean-806b65f2e48e)
+- [Anime-Planet Recommendation Database 2020](https://www.kaggle.com/datasets/hernan4444/animeplanet-recommendation-database-2020)
+
+Team : [Maulana Muhammad](https://github.com/Maoelan) & [Rifki Alfaro](https://github.com/Zweihandler)
+       
 
 
 
