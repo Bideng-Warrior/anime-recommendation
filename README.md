@@ -140,8 +140,6 @@ This step can be seen in [model & evaluation.ipynb](https://github.com/Bideng-Wa
 Reference :
 - [What does RMSE really mean?](https://towardsdatascience.com/what-does-rmse-really-mean-806b65f2e48e)
 - [Anime-Planet Recommendation Database 2020](https://www.kaggle.com/datasets/hernan4444/animeplanet-recommendation-database-2020)
-
-Team : [Maulana Muhammad](https://github.com/Maoelan) & [Rifki Alfaro](https://github.com/Zweihandler)
        
 
 
